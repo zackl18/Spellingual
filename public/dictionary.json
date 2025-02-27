@@ -1,0 +1,289 @@
+[
+  {
+    "english": "bag",
+    "farsi": "کیف",
+    "category": "objects",
+    "definition": "Something you use to carry things.",
+    "hints": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "ball",
+    "farsi": "توپ",
+    "category": "objects",
+    "definition": "A round thing you can throw, catch, or kick.",
+    "hints": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "book",
+    "farsi": "کتاب",
+    "category": "objects",
+    "definition": "Pages of stories or information you can read.",
+    "hints": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "clock",
+    "farsi": "ساعت",
+    "category": "objects",
+    "definition": "A device used to measure and show time, typically found on walls or worn on the wrist.",
+    "hints": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "bird",
+    "farsi": "پرنده",
+    "category": "animals",
+    "definition": "An animal that has wings and can fly.",
+    "hints": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "dog",
+    "farsi": "سگ",
+    "category": "animals",
+    "definition": "A furry animal that barks and is a good friend to humans.",
+    "hints": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "fish",
+    "farsi": "ماهی",
+    "category": "animals",
+    "definition": "An animal that lives in water and swims.",
+    "hints": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "english": "mouse",
+    "farsi": "موش",
+    "category": "animals",
+    "definition": "A small animal with a long tail, often found in houses.",
+    "hints": [
+      0,
+      1,
+      1
+    ]
+  },
+  
+  {
+    "english": "fork",
+    "farsi": "چنگال",
+    "category": "food",
+    "definition": "A tool you use to pick up and eat your food. It has a handle and usually four pointy parts called prongs.",
+    "hints": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "english": "plate",
+    "farsi": "بشقاب",
+    "category": "food",
+    "definition": "A flat round thing you put your food on when you eat.",
+    "hints": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "english": "spoon",
+    "farsi": "قاشق",
+    "category": "food",
+    "definition": "A tool with a round scoop at the end. You use it to eat soup or cereal.",
+    "hints": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "english": "banana",
+    "farsi": "موز",
+    "category": "food",
+    "definition": "A long yellow fruit that is soft inside. It's sweet and you can peel it to eat.",
+    "hints": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "english": "foot",
+    "farsi": "پا",
+    "category": "body parts",
+    "definition": "The part of your body at the end of your leg that you stand and walk on.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "ear",
+    "farsi": "گوش",
+    "category": "body parts",
+    "definition": "The part of your body on the side of your head that you hear with.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "eye",
+    "farsi": "چشم",
+    "category": "body parts",
+    "definition": "The part of your body you see with.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "hair",
+    "farsi": "مو",
+    "category": "body parts",
+    "definition": "The thin strands that grow on your head.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "head",
+    "farsi": "سر",
+    "category": "body parts",
+    "definition": "The top part of your body that has your eyes, nose, mouth, and brain.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "lash",
+    "farsi": "مژه",
+    "category": "body parts",
+    "definition": "The tiny hairs that grow on the edge of your eyelids.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "neck",
+    "farsi": "گردن",
+    "category": "body parts",
+    "definition": "The part of your body that connects your head to the rest of your body.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "lip",
+    "farsi": "لب",
+    "category": "body parts",
+    "definition": "The soft edges around your mouth that you use to close it, talk, and eat.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "knee",
+    "farsi": "زانو",
+    "category": "body parts",
+    "definition": "The part of your leg that bends so you can sit, jump, and run. It's right in the middle of your leg.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "back",
+    "farsi": "پشت",
+    "category": "body parts",
+    "definition": "The part of your body from your shoulders to your hips that is on the opposite side of your chest. It helps you stand up straight.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },  
+  {
+    "english": "puzzle",
+    "farsi": "پازل",
+    "category": "activities",
+    "definition": "A game where you fit pieces together to make a picture or complete a challenge.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "paint",
+    "farsi": "نقاشی",
+    "category": "activities",
+    "definition": "Using colors to make pictures or designs on a surface.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "game",
+    "farsi": "بازی",
+    "category": "activities",
+    "definition": "A fun thing to do by yourself or with friends with rules and goals.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "english": "chicken",
+    "farsi": "مرغ",
+    "category": "food",
+    "definition": "A domestic fowl kept for its eggs or meat, especially a young one.",
+    "hints": [
+      0,
+      0,
+      0
+    ]
+  }
+]

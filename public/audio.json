@@ -1,0 +1,138 @@
+[
+    {
+      "word": "arm",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/arm.mp3"
+    },
+    {
+      "word": "back",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/back.mp3"
+    },
+    {
+      "word": "bag",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/bag.mp3"
+    },
+    {
+      "word": "ball",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/ball.mp3"
+    },
+    {
+      "word": "banana",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/banana.mp3"
+    },
+    {
+      "word": "bird",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/bird.mp3"
+    },
+    {
+      "word": "book",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/book.mp3"
+    },
+    {
+      "word": "clock",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/clock.mp3"
+    },
+    {
+      "word": "dog",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/dog.mp3"
+    },
+    {
+      "word": "ear",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/ear.mp3"
+    },
+    {
+      "word": "eye",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/eye.mp3"
+    },
+    {
+      "word": "eyebrow",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/eyebrow.mp3"
+    },
+    {
+      "word": "finger",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/finger.mp3"
+    },
+    {
+      "word": "fish",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/fish.mp3"
+    },
+    {
+      "word": "foot",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/foot.mp3"
+    },
+    {
+      "word": "fork",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/fork.mp3"
+    },
+    {
+      "word": "game",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/game.mp3"
+    },
+    {
+      "word": "hair",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/hair.mp3"
+    },
+    {
+      "word": "head",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/head.mp3"
+    },
+    {
+      "word": "knee",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/knee.mp3"
+    },
+    {
+      "word": "lash",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/lash.mp3"
+    },
+    {
+      "word": "lip",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/lip.mp3"
+    },
+    {
+      "word": "mouse",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/mouse.mp3"
+    },
+    {
+      "word": "neck",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/neck.mp3"
+    },
+    {
+      "word": "nose",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/nose.mp3"
+    },
+    {
+      "word": "orange",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/orange.mp3"
+    },
+    {
+      "word": "paint",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/paint.mp3"
+    },
+    {
+      "word": "plate",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/plate.mp3"
+    },
+    {
+      "word": "play",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/play.mp3"
+    },
+    {
+      "word": "puzzle",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/puzzle.mp3"
+    },
+    {
+      "word": "school",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/school.mp3"
+    },
+    {
+      "word": "spoon",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/spoon.mp3"
+    },
+    {
+      "word": "tongue",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/tongue.mp3"
+    },
+    {
+      "word": "train",
+      "audio": "https://crb5399capstoneprojectresources.s3.us-east-2.amazonaws.com/audio/train.mp3"
+    }
+  ]

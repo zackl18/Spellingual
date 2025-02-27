@@ -1,0 +1,28 @@
+{
+  "name": "prototype-01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vueuse/core": "^10.7.2",
+    "@vueuse/sound": "^2.0.1",
+    "axios": "^1.6.5",
+    "bootstrap": "^5.3.2",
+    "core-js": "^3.8.3",
+    "localforage": "^1.10.0",
+    "mitt": "^3.0.1",
+    "update": "^0.7.4",
+    "vue": "^3.4.21",
+    "vue-confetti-explosion": "^1.0.2",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}

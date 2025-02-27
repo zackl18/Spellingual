@@ -1,0 +1,182 @@
+[
+  {
+    "key": "persian_0",
+    "persian": "آ",
+    "english": "a"
+  },
+  {
+    "key": "persian_1",
+    "persian": "ا",
+    "english": "a"
+  },
+  {
+    "key": "persian_2",
+    "persian": "ب",
+    "english": "b"
+  },
+  {
+    "key": "persian_3",
+    "persian": "پ",
+    "english": "p"
+  },
+  {
+    "key": "persian_4",
+    "persian": "ت",
+    "english": "t"
+  },
+  {
+    "key": "persian_5",
+    "persian": "ث",
+    "english": "s"
+  },
+  {
+    "key": "persian_6",
+    "persian": "ج",
+    "english": "j"
+  },
+  {
+    "key": "persian_7",
+    "persian": "چ",
+    "english": "ch"
+  },
+  {
+    "key": "persian_8",
+    "persian": "ح",
+    "english": "h"
+  },
+  {
+    "key": "persian_9",
+    "persian": "خ",
+    "english": "kh"
+  },
+  {
+    "key": "persian_10",
+    "persian": "د",
+    "english": "d"
+  },
+  {
+    "key": "persian_11",
+    "persian": "ذ",
+    "english": "z"
+  },
+  {
+    "key": "persian_12",
+    "persian": "ر",
+    "english": "r"
+  },
+  {
+    "key": "persian_13",
+    "persian": "ز",
+    "english": "z"
+  },
+  {
+    "key": "persian_14",
+    "persian": "ژ",
+    "english": "zh"
+  },
+  {
+    "key": "persian_15",
+    "persian": "س",
+    "english": "s"
+  },
+  {
+    "key": "persian_16",
+    "persian": "ش",
+    "english": "sh"
+  },
+  {
+    "key": "persian_17",
+    "persian": "ص",
+    "english": "s"
+  },
+  {
+    "key": "persian_18",
+    "persian": "ض",
+    "english": "z"
+  },
+  {
+    "key": "persian_19",
+    "persian": "ط",
+    "english": "t"
+  },
+  {
+    "key": "persian_20",
+    "persian": "ظ",
+    "english": "z"
+  },
+  {
+    "key": "persian_21",
+    "persian": "ع",
+    "english": "a"
+  },
+  {
+    "key": "persian_22",
+    "persian": "غ",
+    "english": "gh"
+  },
+  {
+    "key": "persian_23",
+    "persian": "ف",
+    "english": "f"
+  },
+  {
+    "key": "persian_24",
+    "persian": "ق",
+    "english": "q"
+  },
+  {
+    "key": "persian_25",
+    "persian": "ک",
+    "english": "k"
+  },
+  {
+    "key": "persian_26",
+    "persian": "گ",
+    "english": "g"
+  },
+  {
+    "key": "persian_27",
+    "persian": "ل",
+    "english": "l"
+  },
+  {
+    "key": "persian_28",
+    "persian": "م",
+    "english": "m"
+  },
+  {
+    "key": "persian_29",
+    "persian": "ن",
+    "english": "n"
+  },
+  {
+    "key": "persian_30",
+    "persian": "و",
+    "english": "u"
+  },
+  {
+    "key": "persian_31",
+    "persian": "ه",
+    "english": "h"
+  },
+  {
+    "key": "persian_32",
+    "persian": "ی",
+    "english": "i"
+  },
+  {
+    "key": "persian_33",
+    "persian": "ئ",
+    "english": "y"
+  },
+  {
+    "key": "persian_34",
+    "persian": "ؤ",
+    "english": "o"
+  },
+  {
+    "key": "persian_35",
+    "persian": "ة",
+    "english": "e"
+  }
+]
