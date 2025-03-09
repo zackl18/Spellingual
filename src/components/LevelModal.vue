@@ -25,6 +25,10 @@
               @click.prevent="goToNextLevel">
               Next
             </button>
+            <button v-if="correct" type="button" class="btn btn-primary btn-blue btn-lg flex-fill"
+              @click.prevent="openWritingModal">
+              Practice Writing
+            </button>
             <button v-if="!correct" type="button" class="btn btn-primary btn-blue btn-lg flex-fill"
               @click.prevent="closeModal">
               Okay
@@ -42,10 +46,11 @@
 import ConfettiExplosion from "vue-confetti-explosion";
 
 // Props definition
-const { displayModal, correct, goToNextLevel, closeModal, goToLevelSelect } = defineProps([
+const { displayModal, correct, goToNextLevel, openWritingModal, closeModal, goToLevelSelect } = defineProps([
   'displayModal',
   'correct',
   'goToNextLevel',
+  'openWritingModal',
   'closeModal',
   'goToLevelSelect',
 ]);
