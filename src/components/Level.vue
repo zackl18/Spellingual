@@ -2,8 +2,10 @@
   <!-- Container for the main content -->
   <div class="container">
     <!-- LevelModal component -->
-    <LevelModal :displayModal="displayLevelModal" :correct="correct" :goToNextLevel="goToNextLevel"
-      :closeModal="closeLevelModal" :goToLevelSelect="goToLevelSelect" />
+    <LevelModal :displayModal="displayLevelModal" :correct="correct" :goToNextLevel="goToNextLevel" 
+      :openWritingModal="openWritingModal" :closeModal="closeLevelModal" :goToLevelSelect="goToLevelSelect" />
+    <!-- WritingModal component -->
+    <WritingModal :displayModal="displayWritingModal" :goToNextLevel="goToNextLevel" :goToLevelSelect="goToLevelSelect" />
     <!-- HintModal component -->
     <HintModal :displayModal="displayHintModal" :closeModal="closeHintModal" :openModal="showHintModal" />
 
@@ -93,6 +95,7 @@ import { ref, onMounted } from "vue";
 import store from '@/store';
 import { useRouter } from "vue-router";
 import LevelModal from "./LevelModal.vue";
+import WritingModal from "./WritingModal.vue";
 import HintModal from "./HintModal.vue";
 import { useSound } from "@vueuse/sound";
 import audioClick from "@/assets/media/click.mp3";
@@ -105,6 +108,7 @@ let available = ref([]);
 
 let correct = ref(false);
 const displayLevelModal = ref(false);
+const displayWritingModal = ref(false);
 const displayHintModal = ref(false);
 
 const { play: playClick } = useSound(audioClick);
@@ -212,6 +216,13 @@ const closeLevelModal = () => {
     goToLevelSelect();
 };
 
+const closeWritingModal = () => {
+  playClick();
+  displayWritingModal.value = false;
+  if (correct.value)
+    goToLevelSelect();
+};
+
 function checkGuess() {
   for (let i = 0; i < word.value.farsi.length; i++) {
     if (word.value.farsi[i] !== guess.value[i]) {
@@ -272,8 +283,15 @@ const goToNextLevel = () => {
     router.push({ name: "LevelSelect" });
 
   displayLevelModal.value = false;
+  displayWritingModal.value = false;
   correct.value = false;
 };
+
+const openWritingModal = () => {
+  playClick();
+  displayLevelModal.value = false;
+  displayWritingModal.value = true;
+}
 
 function playAudioHint() {
   const currentWord = word.value.english; // Assuming `word.value` has an `english` property
