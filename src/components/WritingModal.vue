@@ -16,6 +16,10 @@
                 @click.prevent="goToNextLevel">
                 Next
               </button>
+              <button type="button" class="btn btn-primary btn-blue btn-lg flex-fill"
+                @click="clearCanvas">
+                Clear
+              </button>
               <button type="button" class="btn btn-secondary btn-red flex-fill"
                 @click.prevent="goToLevelSelect">Back</button>
             </div>
@@ -38,20 +42,86 @@
 
   // Get a reference to the canvas element
   const myCanvas = ref(null);
-  onMounted(() => {
-    if (myCanvas.value) { // Ensure myCanvas is not null
-      const ctx = myCanvas.value.getContext('2d');
-      if (ctx) {
-        // Create a new Image object
-        const img = new Image();
-        img.src = "../../assets/images/clockFarsi.png"; // Set the image source
-        // Once the image is loaded, draw it to the canvas
-        img.onload = () => {
-          // Draw the image on the canvas
-          ctx.drawImage(img, 0, 0, canvas.width, canvas.height); // This will stretch the image to fit the canvas
-        };
-      }
+  let isDrawing = false; // Track if the user is drawing
+  let ctx = null;
+
+  let image = new Image(); // Create an Image object
+
+  // Set your image source (this could be a URL or a local image path)
+  image.src = '../../assets/images/clockFarsi.png'; // Replace with your image path
+
+  // Draw the background image
+  const drawBackground = () => {
+    if (ctx) {
+      // Get the natural dimensions of the image
+      const imgWidth = image.naturalWidth;
+      const imgHeight = image.naturalHeight;
+
+      // Calculate the aspect ratio
+      const aspectRatio = imgWidth / imgHeight;
+
+      // Get the canvas width
+      const canvasWidth = myCanvas.clientWidth;
+
+      // Calculate the new height based on the canvas width and aspect ratio
+      const canvasHeight = canvasWidth / aspectRatio;
+
+      // Set the canvas dimensions
+      myCanvas.width = canvasWidth;
+      myCanvas.height = canvasHeight;
+
+      // Draw the image on the canvas, filling the width and maintaining aspect ratio
+      ctx.drawImage(image, 0, 0, canvasWidth, canvasHeight);
     }
+  };
+
+
+  // Clear the canvas
+  const clearCanvas = () => {
+    if (ctx) {
+      ctx.clearRect(0, 0, myCanvas.value.width, myCanvas.value.height);
+      drawBackground(); // Redraw the background after clearing the canvas
+    }
+  };
+
+  // Start drawing
+  const startDrawing = (e) => {
+    isDrawing = true;
+    const { offsetX, offsetY } = e; // Get mouse position relative to canvas
+    ctx.beginPath();
+    ctx.moveTo(offsetX, offsetY); // Start path at the mouse position
+  };
+
+  // Draw while mouse is moving
+  const draw = (e) => {
+    if (!isDrawing) return;
+      const { offsetX, offsetY } = e;
+      ctx.lineTo(offsetX, offsetY); // Draw line to the new mouse position
+      ctx.stroke(); // Apply the drawing action 
+  };
+
+  // Stop drawing
+  const stopDrawing = () => {
+    isDrawing = false;
+  };
+
+  // Setup the canvas after the component is mounted
+  onMounted(() => {
+    ctx = myCanvas.value.getContext('2d');
+    ctx.lineWidth = 2; // Set line width
+    ctx.lineCap = 'round'; // Make the stroke rounded
+    ctx.strokeStyle = 'black'; // Set the color of the stroke
+
+    // Once the image is loaded, set it as the background
+    image.onload = () => {
+      drawBackground(); // Draw the image as the background when it's loaded
+    };
+
+    // Attach event listeners to the canvas
+    myCanvas.value.addEventListener('mousedown', startDrawing);
+    myCanvas.value.addEventListener('mousemove', draw);
+    myCanvas.value.addEventListener('mouseup', stopDrawing);
+    myCanvas.value.addEventListener('mouseout', stopDrawing);
   });
 
 
