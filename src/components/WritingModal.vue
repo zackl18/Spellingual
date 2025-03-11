@@ -53,8 +53,8 @@
   // Draw the background image
   const drawBackground = () => {
     if (ctx) {
-      const width = myCanvas.width;
-      const height = myCanvas.height;
+      const width = myCanvas.value.width;
+      const height = myCanvas.value.height;
       ctx.drawImage(image,0,0,width,height);
     }
   };
@@ -63,7 +63,7 @@
   // Clear the canvas
   const clearCanvas = () => {
     if (ctx) {
-      ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
+      ctx.clearRect(0, 0, myCanvas.value.width, myCanvas.value.height);
       //drawBackground(); // Redraw the background after clearing the canvas
     }
   };
