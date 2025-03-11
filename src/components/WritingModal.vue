@@ -48,30 +48,14 @@
   let image = new Image(); // Create an Image object
 
   // Set your image source (this could be a URL or a local image path)
-  image.src = '../../assets/images/clockFarsi.png'; // Replace with your image path
+  image.src = 'C:\Users\zslew\Spellingual\Spellingual\src\assets\images\clockFarsi.png'; // Replace with your image path
 
   // Draw the background image
   const drawBackground = () => {
     if (ctx) {
-      // Get the natural dimensions of the image
-      const imgWidth = image.naturalWidth;
-      const imgHeight = image.naturalHeight;
-
-      // Calculate the aspect ratio
-      const aspectRatio = imgWidth / imgHeight;
-
-      // Get the canvas width
-      const canvasWidth = myCanvas.clientWidth;
-
-      // Calculate the new height based on the canvas width and aspect ratio
-      const canvasHeight = canvasWidth / aspectRatio;
-
-      // Set the canvas dimensions
-      myCanvas.width = canvasWidth;
-      myCanvas.height = canvasHeight;
-
-      // Draw the image on the canvas, filling the width and maintaining aspect ratio
-      ctx.drawImage(image, 0, 0, canvasWidth, canvasHeight);
+      const width = myCanvas.width;
+      const height = myCanvas.height;
+      ctx.drawImage(image,0,0,width,height);
     }
   };
 
@@ -79,8 +63,8 @@
   // Clear the canvas
   const clearCanvas = () => {
     if (ctx) {
-      ctx.clearRect(0, 0, myCanvas.value.width, myCanvas.value.height);
-      drawBackground(); // Redraw the background after clearing the canvas
+      ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
+      //drawBackground(); // Redraw the background after clearing the canvas
     }
   };
 
